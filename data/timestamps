@@ -1,0 +1,41 @@
+I had used the terminal cmd to create the new file now.txt
+C:\Users\Administrator\Desktop\computer-infrastructure>#mkdir data\timestamps cd data\timestamps
+'#mkdir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop\computer-infrastructure>mkdir data\timestamps
+
+C:\Users\Administrator\Desktop\computer-infrastructure>cd data\timestamps
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>data /T .. now.txt
+'data' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>date /T >> now.txt time /T >> now.txt
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>for /L %i in (1,1,10) do @date /T >> now.txt & time /T >> now.txt
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>type now.txt
+31/10/2024
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>
