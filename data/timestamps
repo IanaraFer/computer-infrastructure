@@ -1,10 +1,41 @@
 I had used the terminal cmd to create the new file now.txt
-1 - Navigate to the directory: cd data
-will show data file
-Append the current date and time to now.txt:
-date >> now.txt
-Repeat the command ten times: You can do this using a loop if you want to automate:
-for i in {1..10}; do date >> now.txt; done
-Verify the content:
-more now.txt
-This will append the current date and time to now.txt ten times and let you view the results. Make sure you’re in the correct directory before running these commands!
+C:\Users\Administrator\Desktop\computer-infrastructure>#mkdir data\timestamps cd data\timestamps
+'#mkdir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop\computer-infrastructure>mkdir data\timestamps
+
+C:\Users\Administrator\Desktop\computer-infrastructure>cd data\timestamps
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>data /T .. now.txt
+'data' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>date /T >> now.txt time /T >> now.txt
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>for /L %i in (1,1,10) do @date /T >> now.txt & time /T >> now.txt
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>type now.txt
+31/10/2024
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+31/10/2024
+14:39
+
+C:\Users\Administrator\Desktop\computer-infrastructure\data\timestamps>
