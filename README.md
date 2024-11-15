@@ -2,10 +2,24 @@
 
 This repository its about my class of Computer Infrastructure at ATU.
 
-You will find some files of Tasks inside of data and a project in the github.
+You will find in this repository some folders and files, README, gitignore and no-necessarie-files.
+
+A folder name Data are Tasks that I had done and all the task are explained in the last task call weather.ipynb.
+Another folder is github. In this folder has a project with the name workflows. This project is about.....
 
 
 
+Get Started 
 
+For you access this project you will need to use python 3.11, Visual Studio Code, Jupyter Notebook. 
 
-Author - Ianara Araujo Fernandes
+  
+
+Get Help 
+
+Where users can get help writing for me (ianarafer@gmail.com) or open an Issue request.  
+
+  
+
+Author 
+**by: Ianara Fernandes**
