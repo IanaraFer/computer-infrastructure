@@ -19,7 +19,8 @@ Get Help
 
 Where users can get help writing for me (ianarafer@gmail.com) or open an Issue request.  
 
-  
+  I study at ATU
+![computer](https://upload.wikimedia.org/wikipedia/commons/6/69/Wikimedia_Foundation_Servers-8055_35.jpg)
 
 Author 
 **by: Ianara Fernandes**
