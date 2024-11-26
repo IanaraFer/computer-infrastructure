@@ -24,3 +24,8 @@ Where users can get help writing for me (ianarafer@gmail.com) or open an Issue r
 
 Author 
 **by: Ianara Fernandes**
+
+Reference
+
+https://github.com/ianmcloughlin/2425_computer_infrastructure?tab=readme-ov-file#task-8-notebook
+https://en.wikipedia.org/wiki/IT_infrastructure
