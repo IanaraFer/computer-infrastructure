@@ -12,10 +12,10 @@ jobs:
         
         steps:
             - name: Checlout repository
-                 uses: actions/checkout@v2
+                 uses: actions/checkout@v3
 
             - name: Set up Python
-                 uses: actions/steup-python@v2
+                 uses: actions/steup-python@v4
                  with:
                       python-version: '3.x' 
                       
