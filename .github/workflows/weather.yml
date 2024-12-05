@@ -23,8 +23,15 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests schedule
 
+    - name: Verify dependencies
+      run: |
+        pip show requests
+        pip show schedule
+
     - name: Run weather data script
       run: python weather-data.py
+
+
 
 
 
