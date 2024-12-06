@@ -1,2 +1,5 @@
-yfinances
+weather web
+requests
+schedule
+datetime
 pandas
