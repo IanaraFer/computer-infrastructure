@@ -4,6 +4,7 @@ on:
   schedule:
     # Runs every day at 10 AM GMT
     - cron: '0 10 * * *'
+  workflow_dispatch: # Add this line to enable manual triggering
 
 jobs:
   weather:
@@ -30,8 +31,3 @@ jobs:
 
     - name: Run weather data script
       run: python weather-data.py
-
-
-
-
-
