@@ -1,14 +1,7 @@
-name: Weather Update
-
-on:
-  schedule:
-    # Runs every day at 10 AM GMT
-    - cron: '0 10 * * *'
-  workflow_dispatch: # Add this line to enable manual triggering
-
 jobs:
   weather:
     runs-on: ubuntu-latest
+    timeout-minutes: 360 # Set the timeout to 6 hours
 
     steps:
     - name: Checkout repository
