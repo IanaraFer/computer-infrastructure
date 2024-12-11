@@ -25,23 +25,29 @@ To access this project, you will need:
    git clone https://github.com/IanaraFer/computer-infrastructure.git
 
 2. Navigate to the project directory:
+
 cd computer-infrastructure
 
 3. Install the required packages:
+
 pip install -r requirements.txt
 
 4. Usage
-Open the Jupyter Notebook:
-jupyter notebook
-Run the notebooks to see the tasks and their explanations.
+
+- Open the Jupyter Notebook:
+- jupyter notebook
+- Run the notebooks to see the tasks and their explanations.
 
 5. Contributing
+
 Feel free to contribute by opening an issue or submitting a pull request.
 
 6. License
+
 This project does not need a license.
 
 7. Contact
+
 For any questions, please contact me at ianarafer@gmail.com or open an issue.
 
 8. References
