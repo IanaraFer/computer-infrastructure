@@ -45,16 +45,17 @@ This project does not need a license.
 For any questions, please contact me at ianarafer@gmail.com or open an issue.
 
 8. References
-GitHub Actions
-YAML
-Computer Infrastructure Course
-https://github.com/ianmcloughlin/2425_computer_infrastructure?tab=readme-ov-file#task-8-notebook
-https://en.wikipedia.org/wiki/IT_infrastructure
-https://www.sciencedirect.com/topics/computer-science/destination-computer
-https://docs.github.com/en/actions/about-github-actions/understanding-github-actions
-https://docs.github.com/en/actions/writing-workflows/about-workflows
-https://en.wikipedia.org/wiki/YAML
-https://github.com/ranaroussi/yfinance/blob/main/requirements.txt
+
+- GitHub Actions
+- YAML
+- Computer Infrastructure Course
+- https://github.com/ianmcloughlin/2425_computer_infrastructure?tab=readme-ov-file#task-8-notebook
+- https://en.wikipedia.org/wiki/IT_infrastructure
+- https://www.sciencedirect.com/topics/computer-science/destination-computer
+- https://docs.github.com/en/actions/about-github-actions/understanding-github-actions
+- https://docs.github.com/en/actions/writing-workflows/about-workflows
+- https://en.wikipedia.org/wiki/YAML
+- https://github.com/ranaroussi/yfinance/blob/main/requirements.txt
 
 #### By: Ianara Fernandes
 
