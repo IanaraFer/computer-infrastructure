@@ -1,32 +1,53 @@
-# # Computer-Infrastructure
+# Computer-Infrastructure
 
-This repository its about my class of Computer Infrastructure at ATU.
+This repository is about my class of Computer Infrastructure at ATU.
 
-You will find in this repository some folders and files, README, gitignore and no-necessarie-files. 
-Then were created to learner during the class to used, configure, and script in a command line interface environment. Manipulate and move data and code using the command line. Compare commonly available software infrastructures and architectures. And Select appropriate infrastructure for a given computational task.
+## Description
 
-A folder name Data are Tasks that I had done and all the task are explained in the last task call weather.ipynb.
-Another folder is github. In this folder has a project with the name workflows. This project is about to run a programm that will run everyday at 10am to give me a weather conditions at that time automatic using the worflow action in github.
+You will find folders and files created to learn during the class to use, configure, and script in a command line interface environment. This involves manipulating and moving data and code using the command line, and comparing common command-line tools.
 
+## Structure
 
-Get Started 
+- **Data**: Contains tasks that I have completed. All tasks are explained in `weather.ipynb`.
+- **github**: Contains a project named `workflows` that runs a program every day at 10 AM to provide weather conditions.
 
-For you access this project you will need to use python 3.11, Visual Studio Code, Jupyter Notebook. 
+## Get Started
 
-  
+To access this project, you will need:
+- Python 3.11
+- Visual Studio Code
+- Jupyter Notebook
 
-Get Help 
+## Installation
 
-Where users can get help writing for me (ianarafer@gmail.com) or open an Issue request.  
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/IanaraFer/computer-infrastructure.git
 
-  I study at ATU
-![computer](https://upload.wikimedia.org/wikipedia/commons/6/69/Wikimedia_Foundation_Servers-8055_35.jpg)
+2. Navigate to the project directory:
+cd computer-infrastructure
 
-Author 
-**by: Ianara Fernandes**
+3. Install the required packages:
+pip install -r requirements.txt
 
-Reference
+4. Usage
+Open the Jupyter Notebook:
+jupyter notebook
+Run the notebooks to see the tasks and their explanations.
 
+5. Contributing
+Feel free to contribute by opening an issue or submitting a pull request.
+
+6. License
+This project does not need a license.
+
+7. Contact
+For any questions, please contact me at ianarafer@gmail.com or open an issue.
+
+8. References
+GitHub Actions
+YAML
+Computer Infrastructure Course
 https://github.com/ianmcloughlin/2425_computer_infrastructure?tab=readme-ov-file#task-8-notebook
 https://en.wikipedia.org/wiki/IT_infrastructure
 https://www.sciencedirect.com/topics/computer-science/destination-computer
@@ -34,3 +55,12 @@ https://docs.github.com/en/actions/about-github-actions/understanding-github-act
 https://docs.github.com/en/actions/writing-workflows/about-workflows
 https://en.wikipedia.org/wiki/YAML
 https://github.com/ranaroussi/yfinance/blob/main/requirements.txt
+
+#### By: Ianara Fernandes
+
+You can copy and paste this structure into your `README.md` file and customize it further based on your project's specific needs.
+
+![computer](https://upload.wikimedia.org/wikipedia/commons/6/69/Wikimedia_Foundation_Servers-8055_35.jpg)
+
+Author 
+**by: Ianara Fernandes**
