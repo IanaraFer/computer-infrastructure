@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en_GB" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en_GB"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.9.12" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today&#39;s weather Athenry  - Dataset - data.gov.ie</title>
+
+    
+    
+
+    
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    
+
+    <!--[if IE]>
+    <script src="/classList.min.js"></script>
+    <![endif]-->
+
+    
+    
+
+
+    
+      
+          <link rel="alternate" type="text/n3" href="https://data.gov.ie/dataset/89ce9ba5-9739-435b-99de-b740c106c45f.n3"/>
+          <link rel="alternate" type="text/turtle" href="https://data.gov.ie/dataset/89ce9ba5-9739-435b-99de-b740c106c45f.ttl"/>
+          <link rel="alternate" type="application/rdf+xml" href="https://data.gov.ie/dataset/89ce9ba5-9739-435b-99de-b740c106c45f.xml"/>
+          <link rel="alternate" type="application/ld+json" href="https://data.gov.ie/dataset/89ce9ba5-9739-435b-99de-b740c106c45f.jsonld"/>
+      
+    
+
+    
+    
+
+
+
+  
+      
+      
+      
+    
+  
+
+
+
+<link rel="stylesheet" href="/styles/impactstories.css">
+
+
+
+
+
+
+
+
+    
+    
+
+
+    
+    
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Today&#39;s weather Athenry  - data.gov.ie">
+  <meta property="og:description" content="This file contains a list of list of observations for every hour of the current day for our synoptic station in Athenry, Co Galway. The file is updated hourly. 
+Time values are Local times. Values...">
+
+
+    
+    <link href="/webassets/ckanext-pages/ff80043b_medium.css" rel="stylesheet"/>
+<link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/0b01aef1_font-awesome.css" rel="stylesheet"/>
+<link href="/webassets/base/2471d0b8_main.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-scheming/728ec589_scheming_css.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-featured/0b79b321_featured_css.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-dgithree/4068f437_mailchimp.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-dgithree/be55f5c5_cookieconsent.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-dgithree/c95c4a2d_dgithree.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-dgithree/d3270a61_dgithree_less.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-harvest/c95a0af2_harvest_css.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-geoview/77c3ca23_geo-resource-styles.css" rel="stylesheet"/>
+    
+  </head>
+
+  
+  <body data-site-root="https://data.gov.ie/" data-locale-root="https://data.gov.ie/" >
+
+    
+    <div class="sr-only sr-only-focusable"><a href="#content">Skip to content</a></div>
+  
+
+  
+    
+    
+
+    <nav id="dgi-nav">
+        
+        <div class="container" style="position:relative; z-index:10;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" style="background-color: white"></span>
+                    <span class="icon-bar" style="background-color: white"></span>
+                    <span class="icon-bar" style="background-color: white"></span>
+                </button>
+                <a class="brand" href="/"><img style="max-height: 100%; padding: 5px;" src="/img/dgi-logo-new.png" alt="Data.Gov.IE" title="Data.Gov.IE" rel="home"/></a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="top-navbar-collapse">
+                <div class="">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/dataset/">Datasets</a></li>
+                        <li><a href="/organization/">Publishers</a></li>
+                        
+                        <li><a href="/dataset/suggest/">Suggest Data</a></li>
+                        <li><a href="/showcase">Showcases</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/about_page">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li role="separator" class="divider"></li>
+                                <li><a href="/blog">Latest News</a></li>
+                                
+                                <li><a href="/guide-for-publishers">Guide for Publishers </a></li>
+                                
+                                
+				                <li><a href="/pages/open-data-engagment-fund">Open Data Engagement Fund </a></li>
+                                
+                                <li><a href="/developers_corner">Developer's Corner</a></li>
+
+                                
+                                <li><a href="/pages/developers">Developer Resources</a></li>
+                                
+
+                                <li><a href="/impact/">Impact Stories</a></li>
+                                <li><a href="/haleandhearty">Hale and Hearty</a></li>
+
+                                
+                                <li><a target="_blank" rel="noopener noreferrer" href="https://ec.europa.eu/eusurvey/runner/opendatasurvey">Survey</a></li>
+                                
+                                <li role="separator" class="divider"></li>
+
+                                <li><a href="/resources">Resources & Publications</a></li>
+                                <li><a href="/formats">Formats</a></li>
+                                
+                                <li><a href="/pages/events">Events</a></li>
+                                
+                                
+                                <li><a href="/pages/re-useofpublicsectorinformation">Re-Use of Public Sector Information</a></li>
+                                
+                                
+                                <li><a href="/license">Open Data Licence </a></li>
+                                
+                                
+                                <li><a href="/resources/open-data-governance-board">Open Data Governance Board</a></li>
+                                
+                                <li role="separator" class="divider"></li>
+
+                                <li><a href="/stats">Stats</a></li>
+                                <li><a href="/broken_links">Broken Links</a></li>
+                                <li><a href="/resources/useful-links">Useful Links</a></li>
+                                <li><a href="http://audit.data.gov.ie" target="_blank">Data Audit Tool</a></li>
+
+
+<!--                                <li role="separator" class="divider"></li>-->
+<!--                                <li><a href="/qa-report">QA Report</a></li>-->
+<!--                                <li><a href="/kpi-report">KPI Report</a></li>-->
+
+
+                            </ul>
+                        </li>
+                        
+                        
+                        
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#">EN/GA <span
+            class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+        
+        
+        <li><a href="/en_GB/dataset/todays-weather-athenry">English</a></li>
+        
+        
+        
+        <li><a href="/ga/dataset/todays-weather-athenry">Gaeilge</a></li>
+        
+        
+    </ul>
+</li>
+                        
+                        
+                        <li><a href="/user/login">Login</a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  
+
+<div role="main">
+    <div class="container-fluid no-padding">
+        
+        <div class="toolbar">
+            <div class="container">
+                
+                
+                <ol class="breadcrumb">
+                    
+<li class="home"><a href="/" aria-label="Home"><i class="fa fa-home"></i><span> Home</span></a></li>
+                    
+  
+    
+    
+      
+      
+      <li><a href="/organization/">Publishers</a></li>
+      <li><a href="/organization/meteireann">Met Éireann</a></li>
+    
+    <li class="active"><a href="/dataset/todays-weather-athenry">Today's weather Athenry </a></li>
+  
+
+                </ol>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="content" class="container">
+        
+        
+        <div class="flash-messages">
+            
+            
+            
+        </div>
+        
+
+        <div class="row wrapper no-nav">
+            
+            
+            
+
+            
+
+            
+            <div class="primary col-xs-12 col-sm-12">
+                
+                
+    
+        
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col-md-8">
+        
+        <h1>
+            
+                Today&#39;s weather Athenry 
+                
+                
+            
+        </h1>
+
+        
+            
+            
+                    
+                <div class="label label-warning">
+                    HIGH VALUE
+                </div>
+            
+        
+
+        
+            <div class="dataset-top-meta" style="font-size: 1em;">
+                <div>
+                    <h5>
+                        
+                            Published by: <strong>
+                            <a href="/organization/meteireann">
+                                Met Éireann
+                            </a></strong>
+                        
+
+                        
+
+                    </h5>
+                </div>
+
+                <div>
+                    <h5 property="dc:rights">
+                        
+                            
+                            
+                                Licensed under: <strong><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a></strong>
+                            
+                        
+                    </h5>
+                </div>
+
+                <div>
+                    <h5>Category:
+                        <a href="/dataset?theme=Environment">
+                            <strong class="theme-color-environment">
+                                Environment
+                            </strong>
+                        </a>
+                    </h5>
+                </div>
+
+                <div>
+                    <h5>Views: <strong>310</strong></h5>
+                </div>
+
+                <div>
+                    <h5>Openness rating: 
+<div class="qa openness-3">
+    
+        <span title="One of the resource formats is 3-star data - machine-readable data in an open format." data-toggle="tooltip">
+            
+<span class="star-rating"><span class="star-rating-stars"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span></span></span> <br>
+    
+</div></h5>
+                </div>
+
+
+            </div>
+        
+
+    </div>
+
+    
+        
+        <div class="col-md-4 hidden-sm hidden-xs" id="actionPanel">
+            <div class="panel panel-dataset-actions">
+                <a data-toggle="collapse" data-parent="#actionPanel" href="#actions">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span class="fa fa-chevron-down"></span> Dataset Actions</h3>
+                    </div>
+                </a>
+                <ul class="list-group list-group-collapse panel-collapse collapse" id="actions">
+
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    <li class="list-group-item">
+                        <span class="fa fa-newspaper-o"></span>
+                        <a href="/dataset/showcases/todays-weather-athenry">View showcases with this dataset</a>
+                    </li>
+
+                    
+                    
+                        <li class="list-group-item">
+                            <span class="fa fa-reply"></span>
+                            <a href="mailto:enq@met.ie">Contact dataset owner</a>
+                        </li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    
+</div>
+
+<div class="row">
+    <div class="col-md-12 lolwhut">
+
+    <div class="notes embedded-content">
+      <p>This file contains a list of list of observations for every hour of the current day for our synoptic station in Athenry, Co Galway. The file is updated hourly. 
+Time values are Local times. Values for each hour include:
+Name; Dry bulb temperature in whole degrees; Weather description, Windspeed (kt); Cardinal Wind Direction; Relative Humidity (%); Rainfall (mm); msl Pressure (mbar); Day of the week; Date; Time of observation.
+Please note: This data is not quality controlled.</p>
+    </div>
+  
+
+    </div>
+</div>
+    
+
+    
+        
+
+
+
+<section id="dataset-resources" class="resources">
+    <h2>Data Resources (2)</h2>
+    
+    <div class="row">
+        
+            <div class="col-sm-12">
+                <div class="dataset-resource">
+                    <div class="dataset-resource-format col-md-2">
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        <span class="format-name">
+                            
+                                JSON
+                            
+                        </span>
+                    </div>
+                    <div class="dataset-resource-text col-md-7">
+                        
+                        
+
+                        
+
+                        
+                            <div>
+                                API
+                            </div>
+                        
+                    </div>
+                    <div class="dataset-resource-buttons col-md-3">
+                        <a class="btn btn-lg btn-info btn-block" href="/dataset/todays-weather-athenry/resource/2946c036-26fc-4364-9535-f794e936930b">
+                            
+                                Preview
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            
+
+                        </a>
+                        <a target="_blank" download class="resource-url-analytics btn btn-lg btn-primary btn-block btn-download" href="https://prodapi.metweb.ie/observations/athenry/today">
+                            Download
+                            <i class="fa fa-download" aria-hidden="true"></i>&nbsp;
+                        </a>
+                    </div><!--/dropdown-->
+                </div><!-- /dataset-resource -->
+            </div><!-- /col-sm-6 -->
+        
+            <div class="col-sm-12">
+                <div class="dataset-resource">
+                    <div class="dataset-resource-format col-md-2">
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        <span class="format-name">
+                            
+                                CSV
+                            
+                        </span>
+                    </div>
+                    <div class="dataset-resource-text col-md-7">
+                        
+                        
+
+                        
+
+                        
+                            <div>
+                                CSV Todays Weather
+                            </div>
+                        
+                    </div>
+                    <div class="dataset-resource-buttons col-md-3">
+                        <a class="btn btn-lg btn-info btn-block" href="/dataset/todays-weather-athenry/resource/fffca98d-f3b6-47de-a834-837f0633e14b">
+                            
+                                Preview
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            
+
+                        </a>
+                        <a target="_blank" download class="resource-url-analytics btn btn-lg btn-primary btn-block btn-download" href="https://www.met.ie/latest-reports/observations/download/athenry">
+                            Download
+                            <i class="fa fa-download" aria-hidden="true"></i>&nbsp;
+                        </a>
+                    </div><!--/dropdown-->
+                </div><!-- /dataset-resource -->
+            </div><!-- /col-sm-6 -->
+        
+        <script>
+         document.addEventListener("DOMContentLoaded", function () {
+             $('.btn-download').click(function () {
+                 ga('send','event','resource','download',this.href);
+//                 (function(t,e,o,s){var n,c,i;t.SMCX=t.SMCX||[],e.getElementById(s)||(n=e.getElementsByTagName(o),c=n[n.length-1],i=e.createElement(o),i.type='text/javascript',i.async=!0,i.id=s,i.src=['https:'===location.protocol?'https://':'http://','widget.surveymonkey.com/collect/website/js/CdrsDz1uZCTspxjcmPdhGl6YR9nJOgYFRsdDLkdKevEmlNWAaW8M4S2i0drsqCEE.js'].join(''),c.parentNode.insertBefore(i,c))})(window,document,'script','smcx-sdk');
+             })
+         });
+        </script>
+
+    </div>
+
+</section>
+    
+
+    
+        
+        
+            <div class="dataset-resource-preview">
+                
+                    <h2>Data Resource Preview - <a href="/dataset/89ce9ba5-9739-435b-99de-b740c106c45f/resource/fffca98d-f3b6-47de-a834-837f0633e14b">Today&#39;s weather Athenry </a></h2>
+                
+
+                
+
+                <iframe src="https://data.gov.ie/dataset/todays-weather-athenry/resource/fffca98d-f3b6-47de-a834-837f0633e14b/view/a2fb0194-9383-44f5-9725-d98068f4b56c" frameborder="0" width="100%" style="min-height: 500px;">
+                    <p>Your browser does not support iframes.</p>
+                </iframe>
+
+            </div>
+        
+    
+
+    
+        
+
+  <section class="tags">
+    
+
+
+  <ul class="tag-list well">
+    
+      <li>
+        <a class="tag" href="/dataset/?tags=+Hourly"> Hourly</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset/?tags=+Observations"> Observations</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset/?tags=+Today"> Today</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset/?tags=Synoptic">Synoptic</a>
+      </li>
+    
+  </ul>
+
+  </section>
+
+    
+
+    
+  
+     
+
+    <section class="additional-info table-responsive">
+        <table class="table table-hover table-dgi">
+            <tbody>
+                <tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Data Owner </th>
+                            <td class="dataset-details">Climate Enquiries</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Data Owner Email </th>
+                            <td class="dataset-details"><a href=mailto:enq@met.ie>enq@met.ie</a></td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Data Owner Telephone </th>
+                            <td class="dataset-details">01-8064261</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Theme </th>
+                            <td class="dataset-details">Environment</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Date released </th>
+                            <td class="dataset-details">
+  2019-03-11
+</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Date updated </th>
+                            <td class="dataset-details">
+  2019-10-31
+</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Rights notes </th>
+                            <td class="dataset-details"># Met Éireann Creative Commons Attribution Licence Notice
+
+## Terms and Conditions: 
+
+* Met Éireann retains Intellectual Property Rights and copyright over our data. 
+* Met Éireann must be acknowledged (attributed) as the source. 
+* Met Éireann does not accept any liability whatsoever for any error or omission in the data, their availability, or for any loss or damage arising from their use.
+* Users must remove attribution if requested by Met Éireann.
+
+## Licence
+This data is published under a Creative Commons Attribution 4.0 International (CC BY 4.0). To view a copy of this licence, visit https://creativecommons.org/licenses/by/4.0/ 
+ 
+## Summary 
+You are free to:
+* Share — copy and redistribute the material in any medium or format 
+* Adapt — remix, transform, and build upon the material for any purpose, even commercially. 
+
+Under the following terms:
+* You must give appropriate credit (attribution) to Met Éireann as outlined below, provide a link to the licence, and indicate if changes were made. 
+* No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the licence permits.
+
+## Attribution
+Met Éireann data and its derivatives must be accredited with the following 5 statements.
+1. Copyright statement: Copyright Met Éireann
+2. Source www.met.ie
+3. Licence Statement: This data is published under a Creative Commons Attribution 4.0 International (CC BY 4.0). https://creativecommons.org/licenses/by/4.0/
+4. Disclaimer: Met Éireann does not accept any liability whatsoever for any error or omission in the data, their availability, or for any loss or damage arising from their use.
+5. Where applicable, an indication if the  material has been modified and an indication of previous modifications
+
+### For Example
+* Copyright Met Éireann
+* Source www.met.ie
+* This data is published under a Creative Commons Attribution 4.0 International (CC BY 4.0). https://creativecommons.org/licenses/by/4.0/
+* Met Éireann does not accept any liability whatsoever for any error or omission in the data, their availability, or for any loss or damage arising from their use.
+* This material has been modified from the original.</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Update frequency </th>
+                            <td class="dataset-details">Continuously updated</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Language </th>
+                            <td class="dataset-details">English</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Geographic coverage in GeoJSON format </th>
+                            <td class="dataset-details">{&#34;type&#34;: &#34;Point&#34;, &#34;coordinates&#34;: [-8.8, 53.3]}</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Geographic coverage </th>
+                            <td class="dataset-details">Athenry</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Spatial Reference Systems (SRS) </th>
+                            <td class="dataset-details">WGS 84 (EPSG:4326)</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">OR: specify what period of time the dataset covers </th>
+                            <td class="dataset-details">Today</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">High Value Dataset (HVD) </th>
+                            <td class="dataset-details">Yes</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">High Value Dataset Category </th>
+                            <td class="dataset-details">Meteorological</td>
+                        </tr><tr>
+                            <th scope="row" class="dataset-label" style="white-space: normal">Applicable Legislation </th>
+                            <td class="dataset-details"><ol><li>http://data.europa.eu/eli/reg_impl/2023/138/oj</li></ol></td>
+                        </tr>
+            </tbody>
+        </table>
+        
+    </section>
+    
+
+
+
+    
+      
+                        
+                      
+                        
+        <!-- Survey Modal -->
+
+
+<style>
+
+    #surveyModal .btn a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #surveyModal .btn a:hover {
+        text-decoration: none;
+    }
+
+    #surveyModal .modal-header {
+        background-color: #01aef0;
+        color: black;
+
+    }
+
+    #surveyModal .modal-title {
+        text-transform: uppercase;
+        color: white;
+        font-weight: 700;
+    }
+
+    #surveyModal .modal {
+        top: 160px;
+    }
+
+    #surveyModal .modal-sm {
+        width: 480px;
+        margin-top: 160px;
+    }
+
+    .modal-backdrop {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1 !important;
+        background-color: transparent;
+    }
+
+    .modal-backdrop in {
+        opacity: 0 !important;
+    }
+
+    .modal-helptext {
+        font-size: 0.8em;
+        float: right;
+    }
+
+    .btn-survey-yes {
+        background-color: #01aef0 !important;
+        width: 120px;
+        text-align: center;
+    }
+
+    .btn-survey-yes:hover {
+        background-color: #00a4e3;
+    }
+</style>
+
+
+
+<div id="surveyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="center modal-title" id="myModalLabel">Help us improve Open Data</h4>
+            </div>
+            <div class="modal-body">
+                <div class="modal-text center">Help us measure open data impact by taking our short survey. We would love to find out more about how Open Data from data.gov.ie is being used,so that we can continue to improve the quality and relevance of datasets being published. All questions are optional.<br><br><span
+                        class="modal-helptext">Completion time: 3 mins</span></div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-survey-no" data-dismiss="modal">No</button>
+                
+                <button type="button" class="btn btn-primary btn-survey-yes"><a target="_blank"
+                                                                                href="https://ec.europa.eu/eusurvey/runner/opendatasurvey">Give Feedback</a>
+                </button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+            $('.resource-url-analytics').click(function () {
+                if (document.cookie.indexOf("name") > 0) {
+//                    console.log("Cookie present, not offering survey")
+                }
+                else {
+                    var CookieDate = new Date;
+                    CookieDate.setFullYear(CookieDate.getFullYear() + 10);
+                    document.cookie = "name=surveyed; expires=" + CookieDate.toUTCString() + "; path=/";
+                    $('#surveyModal').modal('show');
+                }
+            })
+        }
+    );
+</script>
+    
+
+
+
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+    
+<div class="footer">
+    
+    <div class="container container-front">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-details">
+                    <div class="col-md-4">
+                        <h3 class="footer-header">Contact Information</h3>
+                        <address>
+                            Open Data Unit<br/>
+                            <a style="color:#fff;" href="http://per.gov.ie">Department of Public Expenditure NDP Delivery and Reform</a>,<br/>
+                            4th Floor, St. Stephen’s Green House,<br/>
+                            Earlsfort Terrace,
+                            D02 PH42
+                            Dublin 2
+                            Ireland.
+                        </address>
+                        <br>
+                        <div>
+                            <a href="mailto:opendata@per.gov.ie">
+                                <p><span class="fa fa-envelope"></span> opendata@per.gov.ie </p>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="tel:35316767571">
+                                <p><span class="fa fa-phone"></span> +353 1 6767571 </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="footer-header">Give us feedback</h3>
+                        <p>The Open Data Unit values your feedback, questions or comments. We are always delighted to hear from you.</p>
+                        <div>
+                            
+                            <button class="btn btn-danger btn-feedback"><a style="color:#fff;" href="/contact">GIVE US FEEDBACK</a></button>
+                            
+
+                        </div>
+                        <br>
+                        <div>
+                            <a href="http://twitter.com/GovDataIE">
+                                <p><span class="fa fa-twitter"></span> @GovDataIE </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="http://twitter.com/IRLDeptPER">
+                                <p><span class="fa fa-twitter"></span> @IRLDeptPER </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="footer-header"> </h3>
+                        <div>
+                            <p>Powered by
+                                <a href="http://ckan.org"><img id="ckan-logo" src="/img/ckan-logo.png"
+                                                               alt="CKAN logo"/></a>
+                            </p>
+                            <p>Site by
+                                <a style="color:#fff;" href="https://derilinx.com"><img id="derilinx-logo" src="/img/derilinxthumb.png"
+                                                                                        alt="Derilinx logo"/>Derilinx</a>
+                            </p>
+                            <p><a style="color:#fff;" href="/pages/cookie-and-privacy-policy">Cookie & Privacy Policy</a></p>
+                            <p><a style="color:#fff;" href="/pages/accessibility">Accessibility</a></p>
+                            <br><br>
+                            <p>
+                                <img src="/img/footer_white_logo_2.png" alt="" class="img img-responsive"
+                                     style="max-width:80%;max-height:100px;margin-left:-24px">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+  
+  
+  
+  
+  
+
+    
+<script src="https://cdn.usefathom.com/script.js" data-site="TWPPJEGW" defer></script>
+
+
+<!--Force the navbar to be narrower due to extra chars in GA strings-->
+
+
+<!--End force-->
+
+<!--Multilingual cookie/consent text-->
+
+
+
+
+<script type="text/javascript">
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    
+    //<!--google analytics-->
+    if (getCookie("accept-cookie-policy") === "all" || getCookie("accept-cookie-policy") === "analytics") {
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-59685031-1', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+    };
+
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0NBPSTCVM1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0NBPSTCVM1');
+</script>
+
+
+
+  
+    
+      
+  
+
+      
+
+    
+    
+    
+    <script src="/webassets/vendor/d8ae4bed_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/fb6095a0_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/580fa18d_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/base/15a18f6c_main.js" type="text/javascript"></script>
+<script src="/webassets/ckanext-pages/68633da1_medium.js" type="text/javascript"></script>
+<script src="/webassets/base/54c75ef1_ckan.js" type="text/javascript"></script>
+<script src="/webassets/ckanext-dgithree/4a20b78e_cookieconsent.js" type="text/javascript"></script>
+  </body>
+</html>
