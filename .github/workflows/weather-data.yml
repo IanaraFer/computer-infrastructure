@@ -9,7 +9,7 @@ on:
 jobs:
   weather:
     runs-on: ubuntu-latest
-    timeout-minutes: 360 # Set the timeout to 6 hours
+    timeout-minutes: 360 # Set the timeout to 8 hours
 
     steps:
     - name: Checkout repository
