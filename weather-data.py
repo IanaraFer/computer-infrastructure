@@ -5,6 +5,8 @@ import schedule
 import time
 from datetime import datetime
 # Downlow weather web pag.
+
+
 def fetch_weather_data():
     url = 'https://prodapi.metweb.ie/observations/athenry/today'
     response = requests.get(url)
@@ -16,7 +18,8 @@ def fetch_weather_data():
             "condition": data.get('condition'),
             # Add other relevant fields from the JSON response
         }
-        print(weather_info)  # You can replace this with code to save the data file or database
+        # You can replace this with code to save the data file or database
+        print(weather_info)
     else:
         print("Failed to retrieve the weather data")
 
