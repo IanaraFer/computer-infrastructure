@@ -62,10 +62,7 @@ For any questions, please contact me at ianarafer@gmail.com or open an issue.
 - https://docs.github.com/en/actions/writing-workflows/about-workflows
 - https://en.wikipedia.org/wiki/YAML
 - https://github.com/ranaroussi/yfinance/blob/main/requirements.txt
-
-#### By: Ianara Fernandes
-
-You can copy and paste this structure into your `README.md` file and customize it further based on your project's specific needs.
+- https://data.gov.ie/dataset/todays-weather-athenry
 
 ![computer](https://upload.wikimedia.org/wikipedia/commons/6/69/Wikimedia_Foundation_Servers-8055_35.jpg)
 
