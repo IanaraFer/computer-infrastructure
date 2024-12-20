@@ -1,0 +1,39 @@
+name: Weather Update
+
+on:
+  schedule:
+    # Runs every day at 10 AM GMT
+    - cron: '0 10 * * *'
+  workflow_dispatch: # Add this line to enable manual triggering
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests schedule
+
+    - name: Verify dependencies
+      run: |
+        pip show requests
+        pip show schedule
+
+    - name: Run weather update script
+      run: ./scripts/weather.sh
+
+    - name: Commit and push changes
+      run: |
+        git add .
+        git commit -m "Update weather data"
+        git push
