@@ -7,17 +7,17 @@ on:
   workflow_dispatch: # Add this line to enable manual triggering
 
 jobs:
-  weather:
+  update-weather:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+    - name: Set up Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
     - name: Install dependencies
       run: |
@@ -31,3 +31,9 @@ jobs:
 
     - name: Run weather update script
       run: ./scripts/weather.sh
+
+    - name: Commit and push changes
+      run: |
+        git add .
+        git commit -m "Update weather data"
+        git push
