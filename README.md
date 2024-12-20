@@ -9,8 +9,11 @@ You will find folders and files created to learn during the class to use, config
 ## Structure
 
 - **Data**: Contains tasks that I have completed. All tasks are explained in `weather.ipynb`.
-- **github**: Contains a project named `workflows` that runs a program every day at 10 AM to provide weather conditions.
-
+- **github/workflow**: Contains a project named `weather` that runs a program every day at 10 AM to provide weather conditions. (I had a lot of trouble to make to run the programm, I had left the weather1 which is not working, because I was a fraid to delete the historic when was working)
+- **github**: Contains files name `requeriment` and `weather.sh`
+- **no-necessary-files**: where are all the files that I had need to created to make the workflow works.
+- **gitignore**
+  
 ## Get Started
 
 To access this project, you will need:
