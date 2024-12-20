@@ -29,5 +29,5 @@ jobs:
         pip show requests
         pip show schedule
 
-    - name: Run weather data script
-      run: python weather-data.py
+    - name: Run weather update script
+      run: ./scripts/weather.sh
