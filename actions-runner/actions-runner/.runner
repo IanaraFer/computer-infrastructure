@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "weater-data",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/ciTJg5FijgeLzTgfGHwk0N3SsXkA9tXpnVDjd6O8jwTcgIg2oA/",
+  "gitHubUrl": "https://github.com/IanaraFer/computer-infrastructure",
+  "workFolder": "_work"
+}
